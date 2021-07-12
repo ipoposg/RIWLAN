@@ -38,8 +38,8 @@ input.button {
 <title>Logged In</title>
 </head>
 <body bgcolor="#DADCE5" topmargin="50" marginheight="50">
-<form method="post" action="https://riwlan.ri.edu.sg/login_success.html">
-<meta http-equiv="refresh" content="2;url=/blocked" />
+<form method="post" action="login_success.html">
+<meta http-equiv="refresh" content="2;url=blocked" />
 <input type="hidden" name="logoutPageName" size="255" maxlength="255" value="logout.html">
 </form>
 
@@ -64,7 +64,7 @@ function getLogout()
           Keep the small logout window around so that you can logout successfully when done. Else you can always goto following url to logout:
           
            
-	        <a href="javascript:getLogout();">https://riwlan.netlify.app/logout.html<script> document.write(logoutPage) </script>logout.html </a></td>
+	        <a href="javascript:getLogout();">logout.html<script> document.write(logoutPage) </script>logout.html </a></td>
            
           
       </tr>
